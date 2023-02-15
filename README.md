@@ -12,4 +12,5 @@ Q.14): La Bobine L1 et les capacités C5 et C7 forment un filtre de constante de
 Toutes les fréquences supérieures seront atténuées.
 
 #TP 1.3 Questions
-Q.3) On a les valeurs des capacités à la page 11, le schémas d'application à la page 1 permet d'être sûre que nos schémas correspondent.
+Q.3) On a les valeurs des capacités à la page 4, le schémas d'application à la page 1 permet d'être sûre que nos schémas correspondent.
+Q.5) On a les valeurs des capacités à la page 25, avec le schémas qui correspond.
