@@ -57,6 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define DAC_nLDAC_Pin GPIO_PIN_3
+#define DAC_nLDAC_GPIO_Port GPIOA
+#define DAC_nCS_Pin GPIO_PIN_4
+#define DAC_nCS_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
