@@ -8,4 +8,5 @@ Q.13)
 d'après la documentation technique la broche PB9 permet de permuter entre bootloader interne et externe (provenant de la liaison série).
 Il est important de tirer la broche en pull-down afin d'éviter qu'elle détecte un état haut au moment du reset et en consequence decide de passer au chargeur de demarrage interne.
 
-Q14: La Bobine L1 et les capacités C5 et C7 forment un oscillateur de période T = 800 KHz.
+Q14: La Bobine L1 et les capacités C5 et C7 forment un filtre de constante de temps T = 800 KHz.
+Toutes les fréquences supérieures seront atténuées.
