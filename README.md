@@ -14,3 +14,7 @@ Toutes les fréquences supérieures seront atténuées.
 #TP 1.3 Questions
 Q.3) On a les valeurs des capacités à la page 4, le schémas d'application à la page 1 permet d'être sûre que nos schémas correspondent.
 Q.5) On a les valeurs des capacités à la page 25, avec le schémas qui correspond.
+Q.6) La broche CS-barré est le chip select: quand elle est à l'état bas, la puce est active.
+Q.7) La broche LDAC-barré synchonise le registre interne et la sortie du convertisseur.
+Q.8) La broche MISO du STM32 n'est pas utilisé car aucune information n'est envoyé par le DAC au STM32. Le DAC fait juste des conversions,
+Les données ne circule que dans un sens.
