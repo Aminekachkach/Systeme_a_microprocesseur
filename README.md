@@ -18,4 +18,11 @@ Q.6) La broche CS-barré est le chip select: quand elle est à l'état bas, la p
 Q.7) La broche LDAC-barré synchonise le registre interne et la sortie du convertisseur.
 Q.8) La broche MISO du STM32 n'est pas utilisé car aucune information n'est envoyé par le DAC au STM32. Le DAC fait juste des conversions,
 Les données ne circule que dans un sens.
-Q.9) Les Broches SWD sont standardisés.
+Q.10) Les Broches SWD sont standardisés.
+
+#TP 1.4 Questions
+Q.3) Les nombres 0805, 0603, 1206 sont les formats des boitiers des composants.
+Q.4) LQFP signifie: Low Profile Quad Flat Package: La puce est basse (Low Profile), et plate (flat), et il y a des pins dans les 4 directions (Quad)
+SOT-223 est un format de petit boitier pour transistor (Small Outline Transistor).
+un SOIC (Small Outline Integrated Circuit) est une puce avec des pins de deux cotés, avec une épaisseur très faible.
+-> Tout ces formats de puces sont montés en surface du PCB.
