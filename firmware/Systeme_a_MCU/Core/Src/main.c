@@ -95,8 +95,11 @@ int main(void)
   MX_USART2_UART_Init();
   MX_ADC_Init();
   MX_SPI1_Init();
-  MX_TIM21_Init();
+  MX_TIM2_Init();
+
   /* USER CODE BEGIN 2 */
+  LL_TIM_EnableCounter(TIM2);
+  LL_TIM_CC_EnableChannel(TIM2, LL_TIM_CHANNEL_CH1);
 
   /* USER CODE END 2 */
 

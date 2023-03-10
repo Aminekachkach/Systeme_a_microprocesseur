@@ -28,6 +28,18 @@ un SOIC (Small Outline Integrated Circuit) est une puce avec des pins de deux co
 -> Tout ces formats de puces sont montés en surface du PCB.
 
 #TP 3.1 Questions
-Il y a beaucoup moins de fichiers générer, c'est parce-que l'on utilise des fonctions plus bas niveau sans les couches d'abstractions qu'il y a au
+Q.2) Il y a beaucoup moins de fichiers générer, c'est parce-que l'on utilise des fonctions plus bas niveau sans les couches d'abstractions qu'il y a au
 dessus.
 Il y a beaucoup de fichiers avec __STATIC_INLINE
+
+Q.4) __STATIC_INLINE est une macro qui contient les mots clés 'static' et 'inline'.
+'static' indique au compilateur que la fonction n'est pas utilisé ailleurs que dans le fichier qui la contient.
+la mise en ligne de fonction est une optimisation qui consiste à copier-coller le code de la fonction marqué 'inline'
+à l'intérieur des fonctions qui l'appelle. Cela à plusieurs effets:
+    - Les passe d'optimisation qui ont lieu après comme l'élimination du code mort, l'évaluation des constantes, etc... fonctionnent mieux.
+    - Le code résultant est donc plus rapide, car on n'a plus besoin de sauvegarder l'état des registres dans la pile quand on appelle la fonction.
+    - Dans certains cas, le code générer peut être plus gros, car les même instructions sont répétés plusieurs fois. Mais dans notre cas, les fonctions LL
+    sont tellement petites que ça ne devrait pas poser de probléme. Si le compilateur calcule que plus d'instructions seront généré, il ne fera pas d'inlining.
+
+Q.5) Le code est dans un fichier .h car du coup chaque 'compile unit' dois connaître la définition des fonctions à inliner, ce qui n'est pas nécéssaire
+quand le code de chaque module est compilé séparement et qu'ils appellent des fonctions selon la convention d'appel standard du langage C.
