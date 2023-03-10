@@ -26,3 +26,5 @@ Q.4) LQFP signifie: Low Profile Quad Flat Package: La puce est basse (Low Profil
 SOT-223 est un format de petit boitier pour transistor (Small Outline Transistor).
 un SOIC (Small Outline Integrated Circuit) est une puce avec des pins de deux cotés, avec une épaisseur très faible.
 -> Tout ces formats de puces sont montés en surface du PCB.
+
+#TP 3.1 Questions
