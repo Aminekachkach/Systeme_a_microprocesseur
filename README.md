@@ -28,3 +28,6 @@ un SOIC (Small Outline Integrated Circuit) est une puce avec des pins de deux co
 -> Tout ces formats de puces sont montés en surface du PCB.
 
 #TP 3.1 Questions
+Il y a beaucoup moins de fichiers générer, c'est parce-que l'on utilise des fonctions plus bas niveau sans les couches d'abstractions qu'il y a au
+dessus.
+Il y a beaucoup de fichiers avec __STATIC_INLINE
